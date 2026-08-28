@@ -1,0 +1,28 @@
+# Build output
+**/bin/
+**/obj/
+
+# Visual Studio / VS Code user settings
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+
+# Local configuration and secrets
+**/appsettings.Development.json
+secrets.json
+
+# Publish credentials
+**/Properties/PublishProfiles/*.pubxml.user
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
